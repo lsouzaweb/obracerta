@@ -1,6 +1,7 @@
-#
-# Apache/PHP/Drupal settings:
-#
+# SSL Active
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Protect files and directories from prying eyes.
 <FilesMatch "\.(engine|inc|info|install|make|module|profile|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl)(~|\.sw[op]|\.bak|\.orig|\.save)?$|^(\..*|Entries.*|Repository|Root|Tag|Template)$|^#.*#$|\.php(~|\.sw[op]|\.bak|\.orig\.save)$">
@@ -26,6 +27,7 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)/$ /$1 [R=301,L]
+
 
 # No WP spam
 RewriteCond %{REQUEST_URI} ^/wp-login.php$
