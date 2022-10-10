@@ -9,7 +9,7 @@ header { background: url('/assets/header.jpg'); background-size: 100%; height: 8
 header .logo { padding-top: 70px; }
 
 @media only screen and (max-width:899px) {
-    header { background: #000923; }
+    header { background: #000923; height: auto; padding-bottom: 50px; }
     header .logo { padding: 35px 20px 20px 20px; }
 }
 
@@ -54,8 +54,8 @@ section.first h3 { font-style: normal; font-weight: 700; font-size: 33px; line-h
 section.first p { font-weight: 400; font-size: 18px; line-height: 29px; text-align: center; color: #686868; }
 
 @media only screen and (max-width:899px) {
-    section.first { padding-bottom: 20px; }
-    section.first p { padding: 0px 20px; }
+    section.first { padding-bottom: 20px; padding-top: 60px; }
+    section.first p { padding: 0px 20px; font-size: 16px; line-height: 25px; }
     section.first .col-lg-4 { margin-bottom: 30px; }
 }
 
@@ -90,7 +90,8 @@ section.second button.carousel-control-next .carousel-control-next-icon { width:
 @media only screen and (max-width:899px) {
     .swipeMobile { display: block; padding: 0px 20px;}
     .swipeMobile .box { width: 70%; }
-    .swipeMobile .box p { font-size: 14px; line-height: 20px; }
+    .swipeMobile .box h4 { font-size: 19px; }
+    .swipeMobile .box p { font-size: 16px; line-height: 25px; }
 }
 
 section.three { background: #fafafa; height: 619px; padding: 0px; position: relative; top: 200px; }
@@ -98,6 +99,14 @@ section.three img { width: 100%; margin-top: -150px; }
 section.three p { font-weight: 400; font-size: 19px; line-height: 29px; color: #686868; }
 section.three button { background: #FFB930; padding: 12px 30px; border-radius: 3px; border:none; font-family: 'Noto Sans'; font-style: normal; font-weight: 600; font-size: 20px; line-height: 27px; color: #000923; margin-top: 20px; }
 section.three button:hover { background: #ffc759; color: #000923; }
+
+@media only screen and (max-width:899px) {
+    section.three { padding: 0px 20px; top: 250px; height: 545px; }
+    section.three h1 { margin-top: 20px; }
+    section.three p { font-size: 16px; line-height: 25px; }
+    section.three .p-5 { padding: 15px !important; }
+}
+
 
 
 section.four { padding: 0px; position: inherit; margin-top: 310px; height: 760px; }
@@ -109,11 +118,28 @@ section.four ul li { font-weight: 400; font-size: 19px; line-height: 29px; color
 section.four button { background: #FFB930; padding: 12px 30px; border-radius: 3px; border:none; font-family: 'Noto Sans'; font-style: normal; font-weight: 600; font-size: 20px; line-height: 27px; color: #000923; margin-top: 20px; }
 section.four button:hover { background: #ffc759; color: #000923; }
 
+@media only screen and (max-width:899px) {
+    section.four { padding: 0px 20px; height: auto; }
+    section.four h1 { margin-top: 20px; }
+    section.four p { font-size: 16px; line-height: 25px; }
+    section.four ul li { font-size: 16px; line-height: 25px; }
+
+    
+    section.four .col-lg-5 { order: 1; }
+    section.four .col-lg-7 { order: 2; }
+    section.four .p-5 { padding: 15px !important; }
+}
+
 section.five { position: inherit; background: #fafafa;}
 section.five img { margin: 0 auto; display: block; }
 section.five span { display: block; margin: 0 auto; font-family: 'Jura'; font-size: 20px; letter-spacing: -0.07em; }
 section.five small { opacity: 0.6; font-size: 15px; }
 section.five p { padding: 0px 15%; color: #686868; }
+
+@media only screen and (max-width:899px) {
+    section.five { padding-top: 40px; padding-bottom: 40px; }
+    section.five p { padding: 0px 8%; }
+}
 
 footer { background: #000923; padding: 100px 0px; }
 footer p { color: rgba(255, 255, 255, 0.60);}
