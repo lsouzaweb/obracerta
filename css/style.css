@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
 
 /* DEFAULT */
-h1, h2, h3, h4, h5, h6 { font-family: 'Jura', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Jura', sans-serif; letter-spacing: -0.07em; }
 
 header { background: url('/assets/header.jpg'); background-size: 100%; height: 826px; width: 100%; position: relative; }
 header .logo { padding-top: 70px; }
@@ -35,4 +35,33 @@ section { padding: 100px 0px; }
 section.first { background: #FAFAFA; }
 section.first img { margin: 0 auto; display: block; width: 50px; }
 section.first h3 { font-style: normal; font-weight: 700; font-size: 33px; line-height: 39px; text-align: center; letter-spacing: -0.07em; color: #000923; }
-section.first p { font-weight: 400; font-size: 21px; line-height: 29px; text-align: center; color: #686868; }
+section.first p { font-weight: 400; font-size: 18px; line-height: 29px; text-align: center; color: #686868; }
+
+section.second .boxed { width: 75.3%; position: absolute; right: 0px; }
+
+section.second .col-lg-4 img { width: 100%; }
+section.second .col-lg-4 span { font-family: 'Jura'; font-size: 28px; line-height: 39px; letter-spacing: -0.07em; color: #000923; }
+section.second .col-lg-4 p { font-weight: 400; font-size: 19px; line-height: 29px; color: #686868; }
+
+section.second button.carousel-control-prev { background: #FFB930; opacity: 1; width: 40px; height: 40px; border-radius: 50px; top: 145px; left: 30px; }
+section.second button.carousel-control-prev .carousel-control-prev-icon { width: 1.2rem; height: 1rem; }
+
+section.second button.carousel-control-next { background: #FFB930; opacity: 1; width: 40px; height: 40px; border-radius: 50px; top: 145px; right: 30px; }
+section.second button.carousel-control-next .carousel-control-next-icon { width: 1.2rem; height: 1rem; }
+
+section.three { background: #fafafa; height: 619px; padding: 0px; position: relative; top: 200px; }
+section.three img { width: 100%; margin-top: -150px; }
+section.three p { font-weight: 400; font-size: 19px; line-height: 29px; color: #686868 }
+section.three button { background: #FFB930; padding: 12px 30px; border-radius: 3px; border:none; font-family: 'Noto Sans'; font-style: normal; font-weight: 600; font-size: 20px; line-height: 27px; color: #000923; margin-top: 20px; }
+section.three button:hover { background: #ffc759; color: #000923; }
+
+
+
+section.four { padding: 0px; position: relative; top: 310px; }
+section.four img { width: 100%; }
+section.four p { font-weight: 400; font-size: 19px; line-height: 29px; color: #686868 }
+section.four ul { padding: 0px; margin: 0px; padding-left: 25px; }
+section.four ul li { font-weight: 400; font-size: 19px; line-height: 29px; color: #686868 }
+
+section.four button { background: #FFB930; padding: 12px 30px; border-radius: 3px; border:none; font-family: 'Noto Sans'; font-style: normal; font-weight: 600; font-size: 20px; line-height: 27px; color: #000923; margin-top: 20px; }
+section.four button:hover { background: #ffc759; color: #000923; }
