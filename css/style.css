@@ -64,7 +64,7 @@ section.first p { font-weight: 400; font-size: 18px; line-height: 29px; text-ali
     section.first .col-lg-4 { margin-bottom: 30px; }
 }
 
-section.second .box { width: 32.3%; display: inline-block; margin-right: 10px;}
+section.second .box { width: 32.3%; display: inline-block; margin-right: 10px; vertical-align: top;}
 section.second .box img { width: 100%; }
 section.second .box span { font-family: 'Jura'; font-size: 28px; line-height: 39px; letter-spacing: -0.07em; color: #000923; }
 section.second .box p { font-weight: 400; font-size: 19px; line-height: 29px; color: #686868; }
