@@ -5,7 +5,7 @@
 /* DEFAULT */
 h1, h2, h3, h4, h5, h6 { font-family: 'Jura', sans-serif; letter-spacing: -0.07em; }
 
-header { background: url('/assets/header.jpg'); background-size: 100%; height: 826px; width: 100%; position: relative; }
+header { background: url('/assets/header.jpg'); background-repeat: no-repeat; background-size: 100%; height: 826px; width: 100%; position: relative; }
 header .logo { padding-top: 70px; }
 
 @media only screen and (max-width:899px) {
