@@ -87,7 +87,7 @@ section.second button.carousel-control-next .carousel-control-next-icon { width:
 /* SWIPE MOBILE */
 .swipeMobile { overflow-x: scroll; white-space: nowrap; display: none; }
 
-.swipeMobile .box { width: 32.3%; display: inline-block; margin-right: 10px; }
+.swipeMobile .box { width: 32.3%; display: inline-block; margin-right: 10px; vertical-align: top; }
 .swipeMobile .box img { width: 100%; }
 .swipeMobile .box span { font-family: 'Jura'; font-size: 28px; line-height: 39px; letter-spacing: -0.07em; color: #000923; }
 .swipeMobile .box p { font-weight: 400; font-size: 19px; line-height: 29px; color: #686868; white-space: initial;}
@@ -95,7 +95,7 @@ section.second button.carousel-control-next .carousel-control-next-icon { width:
 @media only screen and (max-width:899px) {
     .swipeMobile { display: block; padding: 0px 20px;}
     .swipeMobile .box { width: 70%; }
-    .swipeMobile .box h4 { font-size: 19px; }
+    .swipeMobile .box h4 { font-size: 17px; }
     .swipeMobile .box p { font-size: 16px; line-height: 25px; }
 }
 
