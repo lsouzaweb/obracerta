@@ -23,18 +23,23 @@
                     </div>
 
                     <div class="col-lg-4">
-                        <form action="">
+                        <form action="#" method="#">
                             <h3 class="mb-4">Solicite um orçamento</h3>
-                            <input type="text" placeholder="Nome completo" class="form-control">
-                            <input type="text" placeholder="Seu melhor e-mail" class="form-control">
-                            <input type="text" placeholder="WhatsApp" class="form-control">
-                            <select name="" id="" class="form-select">
-                                <option value="">Urgência</option>
-                                <option value="">Alta</option>
-                                <option value="">Média</option>
-                                <option value="">Baixa</option>
+                            <input type="text" placeholder="Nome completo" class="form-control" id="nome">
+                            <input type="text" placeholder="Seu melhor e-mail" class="form-control" id="email">
+                            <select name="servico" class="form-select" id="servico">
+                                <option>Tipo de serviço</option>
+                                <option>Obra pequena</option>
+                                <option>Obra ou reforma completa</option>
+                                <option>Construção nova</option>
                             </select>
-                            <button class="btn btn-primary">Solicitar Orçamento</button>
+                            <select name="urgencia" class="form-select" id="urgencia">
+                                <option>Selecione a prioridade</option>
+                                <option>Estou apenas pesquisando preços</option>
+                                <option>Quero contratar nos próximos 15 dias</option>
+                                <option>Preciso para essa semana</option>
+                            </select>
+                            <button class="btn btn-primary" id="submit" type="submit">Solicitar Orçamento</button>
                         </form>
                     </div>
                 </div>
@@ -48,7 +53,7 @@
                 <div class="col-lg-4">
                     <img src="assets/icons/ic-tax.svg" alt="Não cobramos taxas" class="mb-4">
                     <h4>Não cobramos %</h4>
-                    <p>Quanto mais cara a sua obra, maior é a remuneração dos gestores de obra. Nós somos diferentes: não cobramos %</p>
+                    <p>Quanto mais cara a sua obra, maior é a remuneração do gestor da obra. Nós somos diferentes: cobramos por m2 e não um %</p>
                 </div>
 
                 <div class="col-lg-4">
@@ -75,39 +80,27 @@
                         <div class="box">
                             <img src="assets/slide/fachadas-incriveis.png" alt="Slide 1" class="mb-3">
                             <h4 class="mt-2 mb-2">Fachadas incríveis</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+                            <p>Trabalhamos com materiais de qualidade e clientes exigentes que prezam pela excelência na entrega do produto final. O resultado é um trabalho realmente memorável.</p>
                         </div>
 
                         <div class="box">
                             <img src="assets/slide/apartamentos-completos.png" alt="Slide 1" class="mb-3">
-                            <h4 class="mt-2 mb-2">Apartamentos completos</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+                            <h4 class="mt-2 mb-2">Casas e apartamentos completos</h4>
+                            <p>Não trabalhamos só com apartamentos. Também temos um time de especialistas em casas residenciais capaz de construir os mais incríveis móveis.</p>
                         </div>
 
                         <div class="box">
                             <img src="assets/slide/revestimentos.png" alt="Slide 1" class="mb-3">
-                            <h4 class="mt-2 mb-2">Revestimentos</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+                            <h4 class="mt-2 mb-2">Revestimentos nobres </h4>
+                            <p>Você pode escolher o material que quiser, que nós vamos instalá-lo com a qualidade de um verdadeiro artesão. </p>
                         </div>
                     </div>
 
                     <div class="carousel-item visible-xs">
                         <div class="box">
                             <img src="assets/slide/default.png" alt="Slide 1" class="mb-3">
-                            <h4 class="mt-2 mb-2">Casas completas</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-                        </div>
-
-                        <div class="box">
-                            <img src="assets/slide/default.png" alt="Slide 1" class="mb-3">
-                            <h4 class="mt-2 mb-2">Fachadas incríveis</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-                        </div>
-                        
-                        <div class="box">
-                            <img src="assets/slide/default.png" alt="Slide 1" class="mb-3">
-                            <h4 class="mt-2 mb-2">Fachadas incríveis</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+                            <h4 class="mt-2 mb-2">Áreas externas e coberturas </h4>
+                            <p>Áreas externas demandam cuidados especiais e nós sabemos disso. Desde a ajuda na escolha correta dos materiais até a instalação adequada para reduzir custos.</p>
                         </div>
                     </div>
                 </div>
@@ -176,7 +169,7 @@
 
                 <div class="col-lg-7 p-5">
                     <h1 class="mb-4">Nossa especialidade: <br> a qualidade</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+                    <p>Não existe nada pior do contratar profissionais que descumprem os prazos ou entregam obras pela metade, cheia de coisas para finalizar. Esse é um problema que você não vai ter com a gente!</p>
                 </div>
             </div>
         </div>
@@ -187,13 +180,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 p-5">
                     <h1 class="mb-4">Acabamento impecável <br> em todos os detalhes</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+                    <p>Só depois de você ter uma obra na sua casa feita pela gente é que você vai entender porque mais de 80% dos nossos clientes indica ou contrata uma nova obra conosco.</p>
                     
-                    <h4 class="mt-5 mb-4">Lorem ipsum</h4>
+                    <h4 class="mt-5 mb-4">Por que somos diferentes?</h4>
                     <ul class="mb-4">
-                        <li>Lorem Ipsum is simply dummy</li>
-                        <li>Lorem Ipsum is simply dummy</li>
-                        <li>Lorem Ipsum is simply dummy</li>
+                        <li>Cumprimos o prazo e nos responsabilizamos por isso</li>
+                        <li>Nosso objetivo é fazer você gastar certo.</li>
+                        <li>Qualidade do nosso trabalho é impecável.</li>
                     </ul>
                 </div>
 
@@ -211,16 +204,17 @@
             <div class="row">
                 <div class="col-lg-6 text-center">
                     <img src="assets/testimonials/1.png" class="mt-5 mb-4">
-                    <span>Henrique</span>
-                    <small>Casa Alphaville</small>
-                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+                    <span>Henrique Lutz</span>
+                    <small>Casa Jurerê Internacional - Florianópolis - SC</small>
+                    <p class="mt-3">Eles concluiram minha casa com 1 mês de 
+                        antecedência e economizaram mais de R$50 mil reais em revestimentos que eu havia previsto. Eles foram incríveis. </p>
                 </div>
 
                 <div class="col-lg-6 text-center">
                     <img src="assets/testimonials/1.png" class="mt-5 mb-4">
-                    <span>Henrique</span>
-                    <small>Casa Alphaville</small>
-                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+                    <span>Fernanda Fioravante</span>
+                    <small>Apartamento Av. Atlândida - Balneário Camboriú, SC</small>
+                    <p class="mt-3">Quando decidi reformar meu apartamento, decidi buscar uma empresa séria e com experiência. O resultado ficou exatamente como eu imaginava, pois eles dão muita atenção aos detalhes.</p>
                 </div>
             </div>
         </div>
@@ -235,5 +229,20 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+         document.querySelector('#submit').addEventListener('click',function(){
+            let nome = document.querySelector('#nome').value;
+            let email = document.querySelector('#email').value;
+            let servico = document.querySelector('#servico').value;
+            let urgencia = document.querySelector('#urgencia').value;
+
+            let url = ("https://api.whatsapp.com/send?phone=5511999360066&text= Olá, gostaria de receber informações sobre os serviços abaixo: %0A"
+            + "%0A *Nome:* " + nome
+            + "%0A *Email:* " + email
+            + "%0A *Serviço:* " + servico
+            + "%0A *Prioridade:* " + urgencia);
+            window.open(url);
+            });
+    </script>
   </body>
 </html>
