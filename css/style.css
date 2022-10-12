@@ -20,13 +20,18 @@ header .content { color: #fff; position: relative; }
 header .content h1 { font-family: 'Jura'; font-weight: 700; font-size: 68px; line-height: 70px; margin-top: 50px; letter-spacing: -0.07em; }
 header .content h1 span { color: #FFB930; }
 
+header .content h1.mobile { display: none; }
+
 header .content p { font-family: 'Noto Sans'; font-style: normal; font-weight: 400; font-size: 21px; line-height: 29px; color: rgba(255, 255, 255, 0.75); margin-top: 30px; }
 header .content p b { font-weight: bold; }
 
 @media only screen and (max-width:899px) {
     header .content { padding: 20px; }
     header .content h1 { font-size: 30px; line-height: 35px; margin-top: 10px; }
+    header .content h1.desktop { display: none; }
+    header .content h1.mobile { display: block; }
     header .content p { font-size: 16px; margin-top: 15px; }
+    header .content p.mobile { display: none; }
     header .content p br { display: none; }
 }
 
@@ -34,7 +39,7 @@ header .content p b { font-weight: bold; }
 header .content form { padding: 40px; border-radius: 3px; background: url(.png), radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%); background-blend-mode: overlay, normal; backdrop-filter: blur(40px); }
 header .content form h3 { text-align: center; letter-spacing: -0.07em; color: #FBFBFB; }
 header .content form input { margin-bottom: 25px; padding: 12px 15px; border-radius: 4px; }
-header .content form select { margin-bottom: 15px; padding: 12px 15px; border-radius: 4px; }
+header .content form select { margin-bottom: 25px; padding: 12px 15px; border-radius: 4px; color: #6c757d; }
 
 header .content form input:focus { box-shadow: none !important; border: 1px solid #fff; }
 header .content form select:focus { box-shadow: none !important; border: 1px solid #fff; }
@@ -43,7 +48,7 @@ header .content form button { width: 100%; background: #FFB930; padding: 12px 30
 header .content form button:hover { background: #ffc759; color: #000923; }
 
 @media only screen and (max-width:899px) {
-    header .content form { margin-top: 10px; padding: 30px; }
+    header .content form { margin-top: 30px; padding: 30px; }
 }
 
 /* FIRST */
