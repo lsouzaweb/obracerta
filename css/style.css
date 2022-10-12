@@ -128,7 +128,7 @@ section.four button:hover { background: #ffc759; color: #000923; }
     section.four h1 { margin-top: 20px; }
     section.four p { font-size: 16px; line-height: 25px; }
     section.four ul { padding: 0px; }
-    section.four ul li { font-size: 16px; line-height: 25px; list-style: none; }
+    section.four ul li { font-size: 16px; line-height: 25px; text-align: left; }
 
     
     section.four .col-lg-5 { order: 1; }
